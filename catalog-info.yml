@@ -1,0 +1,23 @@
+
+# catalog-info.yml
+# This file contains metadata for backstage
+# Read more about available fields and annotations:
+# https://github.com/tradeshift/backstage
+#
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: puppet-consul
+  description: |
+    A Puppet Module to Manage Consul
+  annotations:
+    github.com/project-slug: Tradeshift/puppet-consul # GitHub project name
+    sentry.io/project-slug: puppet-consul # Name in sentry for enabling Sentry integration
+    backstage.io/kubernetes-id: puppet-consul # Kubernetes app id, this is a Kubernetes label from the deployment of your service look for ex. app: backstage
+    # pagerduty.com/integration-key: a834115a04c748a5befc777442e209b8 # PagerDuty integration id from the service. Can be created in Pagerduty under Service Discovery -> Service name -> Integrations tab -> Add new integration. Please use the Events API v2, this might require you to chnage 'Alert and Incident Settings' on the 'Integrations tab' page.
+    sonarqube.org/project-key: puppet-consul # Name of the project in SonarQube
+
+spec:
+  type: other
+  owner: operations
+  lifecycle: experimental
