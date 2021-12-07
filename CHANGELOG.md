@@ -1,8 +1,47 @@
 # Changelog
 
-## [4.0.0](https://github.com/solarkennedy/puppet-consul/tree/4.0.0) (2018-10-04)
+All notable changes to this project will be documented in this file.
+Each new release typically also includes the latest modulesync defaults.
+These should not affect the functionality of the module.
 
-[Full Changelog](https://github.com/solarkennedy/puppet-consul/compare/v3.4.2...4.0.0)
+## [v5.0.2](https://github.com/solarkennedy/puppet-consul/tree/v5.0.2) (2018-12-12)
+
+[Full Changelog](https://github.com/solarkennedy/puppet-consul/compare/v5.0.1...v5.0.2)
+
+**Fixed bugs:**
+
+- Don't monkey-patch the JSON module [\#456](https://github.com/solarkennedy/puppet-consul/pull/456) ([joshuaspence](https://github.com/joshuaspence))
+
+**Closed issues:**
+
+- Broken JSON module [\#452](https://github.com/solarkennedy/puppet-consul/issues/452)
+
+## [v5.0.1](https://github.com/solarkennedy/puppet-consul/tree/v5.0.1) (2018-10-31)
+
+[Full Changelog](https://github.com/solarkennedy/puppet-consul/compare/v4.0.0...v5.0.1)
+
+**Breaking changes:**
+
+- Puppet 6 support [\#444](https://github.com/solarkennedy/puppet-consul/pull/444) ([l-lotz](https://github.com/l-lotz))
+
+**Fixed bugs:**
+
+- undefined method `validate\_checks` on puppet 5.5.7/6.0.3 [\#448](https://github.com/solarkennedy/puppet-consul/issues/448)
+- Wrong init provider on Ubuntu 14.04 [\#438](https://github.com/solarkennedy/puppet-consul/issues/438)
+- Change "enableTagOverride" to "enable\_tag\_override" in version 1.0.0 and … [\#447](https://github.com/solarkennedy/puppet-consul/pull/447) ([wenzhengjiang](https://github.com/wenzhengjiang))
+
+**Closed issues:**
+
+- Version 4.0.0 is missing in git [\#445](https://github.com/solarkennedy/puppet-consul/issues/445)
+- Wrong dependencies in Puppet Forge [\#442](https://github.com/solarkennedy/puppet-consul/issues/442)
+
+**Merged pull requests:**
+
+- release 5.0.0 [\#449](https://github.com/solarkennedy/puppet-consul/pull/449) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v4.0.0](https://github.com/solarkennedy/puppet-consul/tree/v4.0.0) (2018-10-05)
+
+[Full Changelog](https://github.com/solarkennedy/puppet-consul/compare/v3.4.2...v4.0.0)
 
 **Breaking changes:**
 
