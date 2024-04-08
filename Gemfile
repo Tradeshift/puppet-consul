@@ -26,7 +26,7 @@ group :test do
   gem "puppet-syntax"
   gem "puppetlabs_spec_helper"
   gem "hiera"
-  gem "webmock", ">= 2.3.0"
+  gem "webmock", ">= 3.23.0"
   gem "public_suffix"
   gem 'rspec-puppet-facts'
   gem "parallel_tests"
