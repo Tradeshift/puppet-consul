@@ -11,7 +11,7 @@ group :development do
   gem "pry"
   gem "serverspec"
   gem "vagrant-wrapper"
-  gem "fog-openstack", "0.3.10" if RUBY_VERSION < '2.2.2'
+  gem "fog-openstack", "1.1.3" if RUBY_VERSION < '2.2.2'
 end
 
 group :test do
